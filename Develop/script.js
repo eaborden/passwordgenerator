@@ -32,7 +32,7 @@ var wantspecialchars = confirm ("Do you want special characters")
 if (wantlowercase === false && wantuppercase === false && wantnumbers === false && wantspecialchars === false) 
 return alert ("Must select one.") // will end function
 
-// console.log ("at least one selected")
+//console.log ("at least one selected")
 
 // Check if one type was selected
 if (wantlowercase === true)
@@ -44,9 +44,34 @@ possibleoptions += numbers
 if (wantspecialchars === true)
 possibleoptions += specialchars
 
-for (var i =0;i<passwordLength;i++)
+//need to get a variable for the 81 characters
+//pass that through a function that get a random index for each character in the array
 
-//console.log(possibleoptions)
+
+
+var password ="";
+for (var i=0; i < passwordLength; i++){
+var selectedoptions = possibleoptions;
+
+function getRandomIndex(selectedoptions) {
+  return Math.floor(Math.random() * selectedoptions.length);
+
+}
+var onechar = selectedoptions.charAt(getRandomIndex(selectedoptions));
+password += onechar;
+}
+//assigns the value from the array from the value of the index
+
+//var onechar = selectedoptions.charAt(getRandomIndex(selectedoptions));
+
+
+  //for (var i=0; i < passwordLength; i++)
+
+
+console.log(password);
+
+
+
 
 
 }

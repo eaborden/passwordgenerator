@@ -66,8 +66,6 @@ The following image demonstrates the application functionality:
 ---
 [Github repository](https://github.com/eaborden/passwordgenerator)
 
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+[Passwword Generator](https://eaborden.github.io//passwordgenerator/Develop/index.html
 
 - - -

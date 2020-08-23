@@ -66,6 +66,6 @@ The following image demonstrates the application functionality:
 ---
 [Github repository](https://github.com/eaborden/passwordgenerator)
 
-[Passwword Generator](https://eaborden.github.io//passwordgenerator/Develop/index.html
+[Passwword Generator](https://eaborden.github.io//passwordgenerator/Develop/index.html)
 
 - - -

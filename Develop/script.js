@@ -60,6 +60,8 @@ function getRandomIndex(selectedoptions) {
 var onechar = selectedoptions.charAt(getRandomIndex(selectedoptions));
 password += onechar;
 }
+console.log(password);
+}
 //assigns the value from the array from the value of the index
 
 //var onechar = selectedoptions.charAt(getRandomIndex(selectedoptions));
@@ -67,11 +69,3 @@ password += onechar;
 
   //for (var i=0; i < passwordLength; i++)
 
-
-console.log(password);
-
-
-
-
-
-}

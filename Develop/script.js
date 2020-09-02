@@ -47,8 +47,6 @@ function generatePassword() {
   //need to get a variable for the 81 characters
   //pass that through a function that get a random index for each character in the array
 
-
-
   var password = "";
   for (var i = 0; i < passwordLength; i++) {
     var selectedoptions = possibleoptions;
@@ -60,18 +58,7 @@ function generatePassword() {
     var onechar = selectedoptions.charAt(getRandomIndex(selectedoptions));
     password += onechar;
   }
-  //get password text area by ID
-  //add password into text area
-  // var passwordtext = document.getElementById("password");
-  // passwordtext.value = password;
 
-  console.log(password);
   return password;
 }
-//assigns the value from the array from the value of the index
-
-//var onechar = selectedoptions.charAt(getRandomIndex(selectedoptions));
-
-
-  //for (var i=0; i < passwordLength; i++)
 

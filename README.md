@@ -49,6 +49,7 @@ I was unable to get the application to pass the password to the form on the addE
 ###### Resources
 ---
 [Special characters](https://www.owasp.org/index.php/Password_special_characters/)
+
 [w3schools.com](https://www.w3schools.com/)
 
 ---
@@ -63,9 +64,8 @@ The following image demonstrates the application functionality:
 
 ###### Project Links
 ---
+[Github repository](https://github.com/eaborden/passwordgenerator)
 
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+[Passwword Generator](https://eaborden.github.io//passwordgenerator/Develop/index.html)
 
 - - -
